@@ -1,0 +1,51 @@
+* {
+    font-family: roboto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h2 {
+font-size: 48px;
+font-weight: bolder;
+color: #f9faf8;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.hero {
+    background-color: #1f2937;
+    
+}
+
+.cta {
+    background-color: #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+}
