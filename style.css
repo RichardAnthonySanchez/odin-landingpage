@@ -4,6 +4,22 @@
     color: #e5e7eb;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    padding: 32px;
+}
+
 h1 {
     font-size: 24px;
     color: #f9faf8;
@@ -33,19 +49,107 @@ button {
     color: #f9faf8;
 }
 
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .hero {
     background-color: #1f2937;
-    
+    display: flex;
+    align-items: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.hero-left {
+    width: 400px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+.img-card {
+    height: auto;
+    width: 200px;
+}
+
+.card-bottom {
+    display: flex;
+    width: 800px;
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
 }
 
 .cta {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cta-card {
     background-color: #3882f6;
+    width: 950px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.quote-top {
+    width: 700px;
+}
+
+.quote-bottom {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .footer {
     background-color: #1f2937;
+    display: flex;
+    justify-content: center;
 }
